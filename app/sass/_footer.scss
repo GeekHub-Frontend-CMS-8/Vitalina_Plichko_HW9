@@ -1,0 +1,38 @@
+.section-footer {
+  background-color: #f5f5f5;
+  background-size: cover;
+}
+
+.footer_position {
+  padding: 50px 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footer__part{
+  display: inline-flex;
+  align-items: center;
+}
+.part1__text{
+  padding-left: 30px;
+  color: #29323c;
+  font-family: $font-openSans;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.part2__text{
+  padding-right: 20px;
+  color: #29323c;
+  font-family: $font-openSans;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+@media (max-width: 600px){
+.footer_position{
+
+}
+}

@@ -30,21 +30,11 @@
     padding-top: 10px;
   }
   &__logos{
-    padding-top: 20px ;
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
 }
 
-.team-btn{
-  //margin: 95px 0 100px;
-  //text-decoration: none;
-  //padding: 15px 25px;
-  //color: #e8e8e8;
-  //font-family: $font-montserrat;
-  //font-size: 13px;
-  //font-weight: 700;
-  //border: 2px solid #fff;
-  //border-radius: 25px;
-}
 
 .team-btn{
   padding-top: 70px;
@@ -62,6 +52,7 @@
     &:hover{
       background-color: white;
       color: #000;
+      transition: 0.3s;
     }
   }
 }
