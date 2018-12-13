@@ -5,7 +5,36 @@ $font-openSans: "Open-Sans", sans-serif;
 //  font-family: $font-family;
 //}
 
-.container{
+.container {
   margin: 0 auto;
   max-width: 1170px;
+}
+@media(max-width: 375px) {
+  .container {
+    max-width: 350px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .container {
+    max-width: 990px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+//@media(max-width: 880px) {
+//.container{
+//  max-width: 830px;
+//}
+//}
+
+@media(max-width: 630px) {
+  .container{
+    max-width: 580px;
+  }
 }

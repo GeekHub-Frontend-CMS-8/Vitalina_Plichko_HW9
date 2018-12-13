@@ -8,6 +8,7 @@
 .images{
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   padding-top: 60px;
   //min-width: 2000px;
   margin: auto;
@@ -15,9 +16,20 @@
 }
 
 .images__photo{
-  width: calc(100%/5);
-  height: 150px;
+  //max-width: calc(100%/5);
+  //max-height: 150px;
+  display: flex;
+  flex-basis: 234px;
   //padding: 0;
   //display: flex;
   //flex-flow: row wrap;
+}
+
+
+
+@media(max-width: 320px) {
+  .images__photo{
+
+    flex-basis: 234px;
+  }
 }

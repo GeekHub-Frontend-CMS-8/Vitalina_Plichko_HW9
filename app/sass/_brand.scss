@@ -23,3 +23,11 @@
     //text-align: left;
   }
 }
+
+
+@media(max-width: 768px) {
+  .brand-elements__item{
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}

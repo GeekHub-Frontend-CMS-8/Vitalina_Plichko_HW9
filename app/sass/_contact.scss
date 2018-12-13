@@ -1,7 +1,6 @@
 .contact {
   display: flex;
   //flex-flow: row wrap;
-
 }
 
 .contact-container{
@@ -84,5 +83,59 @@
   .formBox-container{
     max-width: 310px;
     max-height: 310px;
+  }
+  .form-element__input {
+    //width: 30%;
+    max-height: 25px;
+    max-width: 80px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .maps__element{
+    max-width: 510px;
+    max-height: 570px;
+  }
+  .formBox-container{
+    max-width: 510px;
+    max-height: 510px;
+  }
+}
+
+@media(max-width: 1123px) {
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formBox-container{
+    padding-top: 20px;
+    //max-width: 510px;
+    //max-height: 510px;
+  }
+}
+
+@media(max-width: 768px) {
+  .maps__element{
+    max-width: 310px;
+    //display: hidden;
+  }
+  .formBox-container{
+    padding: 20px 5%;
+  }
+  .form-element__message{
+    max-height: 20px;
+  }
+}
+
+@media(max-width: 640px) {
+  .formBox{
+    justify-content: center;
+  }
+  .form-element__input {
+    width: 30%;
+    max-height: 45px;
+    max-width: 150px;
   }
 }

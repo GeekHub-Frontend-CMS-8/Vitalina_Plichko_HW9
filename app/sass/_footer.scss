@@ -40,3 +40,13 @@
     padding-top: 10px;
   }
 }
+
+@media(max-width: 625px) {
+  .footer_position {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__part{
+    padding-top: 10px;
+  }
+}
