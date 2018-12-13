@@ -11,6 +11,7 @@
 .box{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box-item{
@@ -54,5 +55,11 @@
       color: #000;
       transition: 0.3s;
     }
+  }
+}
+
+@media(max-width: 320px) {
+  .team-btn{
+    padding-bottom: 30px;
   }
 }

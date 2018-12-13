@@ -75,3 +75,14 @@
     text-decoration: none;
   }
 }
+
+@media(max-width: 320px) {
+  .maps__element{
+    max-width: 310px;
+    max-height: 310px;
+  }
+  .formBox-container{
+    max-width: 310px;
+    max-height: 310px;
+  }
+}

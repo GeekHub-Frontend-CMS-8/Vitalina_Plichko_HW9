@@ -8,4 +8,18 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 320px) {
+  .brand-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .brand-elements__item{
+    padding-top: 20px;
+    //text-align: left;
+  }
 }
